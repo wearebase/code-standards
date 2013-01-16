@@ -14,6 +14,19 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 * Comment what is not obvious
 * Indent using 4 spaces. This is the standard for PHP. Your editor can make this seamless for you.
 * Large changes to whitespace should be in their own commit
+* Never trust any type of user data
+
+## Passwords
+
+* Use industry best practices for storing passwords safely. We currently use [bcrpyt](http://en.wikipedia.org/wiki/Bcrypt) to store user passwords in databases (for example, [wp_bcrypt](https://github.com/dxw/wp_bcrypt) for WordPress).
+* User login forms should be protected against remote brute force attacks (for example, [Login LockDown](http://wordpress.org/extend/plugins/login-lockdown/) for WordPress).
+* Passwords must be "strong", meaning they have an [entropy](http://en.wikipedia.org/wiki/Password_strength#Random_passwords) of at least 56 bits. This is approximately equal to a password with 12 lowercase characters or a password with 9 mixed-case alphanumeric characters.
+
+## Security
+
+* Industry best practices should be followed for security
+* Remove services such as FTP, which transfer data unencrypted, and instead use secure services such as SFTP.
+* Private SSH keys should have pass-phrases
 
 ## PHP
 
@@ -22,6 +35,10 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 * Follow [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) to the letter with all new code and when updating legacy code
 * Follow [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md), except when working with legacy files
 * Try not to mix PHP with HTML
+
+## SQL
+
+* Use use [parameterized queries](http://stackoverflow.com/questions/60174/how-to-prevent-sql-injection-in-php) whenever possible
 
 ## JavaScript
 
