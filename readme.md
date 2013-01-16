@@ -7,14 +7,24 @@ Please note: This document is biased towards PHP and JavaScript, which are the m
 
 Content is licensed under the Creative Commons - CC BY 3.0 license.
 
-## General
+
+## Files and formatting
 
 * Save files as UTF-8
 * UNIX-style line endings. (`git` should take care of this for you if you use Windows)
-* Comment what is not obvious
 * Indent using 4 spaces. This is the standard for PHP. Your editor can make this seamless for you.
+* Lowercase filenames, without any punctuation apart from `-` and `.` (except where this contradicts with another standard)
+
+
+## Comments
+
+* Comment what is not obvious
+
+
+## Source control (eg `git`)
+
 * Large changes to whitespace should be in their own commit
-* Never trust any type of user data
+
 
 ## Passwords
 
@@ -22,11 +32,14 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 * User login forms should be protected against remote brute force attacks (for example, [Login LockDown](http://wordpress.org/extend/plugins/login-lockdown/) for WordPress).
 * Passwords must be "strong", meaning they have an [entropy](http://en.wikipedia.org/wiki/Password_strength#Random_passwords) of at least 56 bits. This is approximately equal to a password with 12 lowercase characters or a password with 9 mixed-case alphanumeric characters.
 
+
 ## Security
 
 * Industry best practices should be followed for security
+* Never trust any type of user data
 * Remove services such as FTP, which transfer data unencrypted, and instead use secure services such as SFTP.
 * Private SSH keys should have pass-phrases
+
 
 ## PHP
 
@@ -36,14 +49,17 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 * Follow [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md), except when working with legacy files
 * Try not to mix PHP with HTML
 
+
 ## SQL
 
 * Use use [parameterized queries](http://stackoverflow.com/questions/60174/how-to-prevent-sql-injection-in-php) whenever possible
+
 
 ## JavaScript
 
 * JavaScript code must not show errors on [JSHint](http://www.jshint.com/)
 * 4 spaces, not tabs (to be consistent with PHP)
+
 
 ## CSS (and SCSS/Less)
 
@@ -57,10 +73,18 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 * Comment where styles are used if it is not obvious
 * CSS hacks should be avoided and documented if they are ever used (use [conditional classes on the html element](http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/) instead)
 
+
 ## HTML
 
 * `.class-names-lowercase-with-dashes`
 * `#ids-lowercase-with-dashes`
 * HTML5 doctype: `<!doctype html>`
 * HTML should be mostly valid
+
+
+## Performance
+
+* Compress images and other assets for the web
+* Follow [YSlow rules](http://developer.yahoo.com/performance/rules.html)
+* Follow [Google Page speed rules](https://developers.google.com/speed/docs/best-practices/rules_intro)
 
