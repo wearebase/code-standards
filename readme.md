@@ -52,7 +52,7 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 
 ## SQL
 
-* Use use [parameterized queries](http://stackoverflow.com/questions/60174/how-to-prevent-sql-injection-in-php) whenever possible
+* Use [parameterized queries](http://stackoverflow.com/questions/60174/how-to-prevent-sql-injection-in-php) whenever possible
 
 
 ## JavaScript
