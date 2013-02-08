@@ -28,7 +28,7 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 
 ## Passwords
 
-* Use industry best practices for storing passwords safely. We currently use [bcrpyt](http://en.wikipedia.org/wiki/Bcrypt) to store user passwords in databases (for example, [wp_bcrypt](https://github.com/dxw/wp_bcrypt) for WordPress).
+* Use industry best practices for storing passwords safely. We currently use [bcrypt](http://en.wikipedia.org/wiki/Bcrypt) to store user passwords in databases (for example, [wp_bcrypt](https://github.com/dxw/wp_bcrypt) for WordPress).
 * User login forms should be protected against remote brute force attacks (for example, [Login LockDown](http://wordpress.org/extend/plugins/login-lockdown/) for WordPress).
 * Passwords must be "strong", meaning they have an [entropy](http://en.wikipedia.org/wiki/Password_strength#Random_passwords) of at least 56 bits. This is approximately equal to a password with 12 lowercase characters or a password with 9 mixed-case alphanumeric characters.
 
