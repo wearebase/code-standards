@@ -47,6 +47,7 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 * Use [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md) or the framework’s class autoloader when loading classes
 * Follow [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) to the letter with all new code and when updating legacy code
 * Follow [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md), except when working with legacy files
+* Naming conventions should follow http://en.wikipedia.org/wiki/Domain-driven_design and http://symfony.com/doc/current/contributing/code/conventions.html#method-names
 * Try not to mix PHP with HTML
 
 
