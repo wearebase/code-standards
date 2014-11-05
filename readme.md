@@ -63,17 +63,28 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
     * 4 spaces, not tabs (to be consistent with PHP)
 
 
-## CSS (and SCSS/Less)
+## SCSS
 
+* Follow scss-lint's guidelines, use a [scss-lint in Sublime](https://sublime.wbond.net/packages/SublimeLinter-contrib-scss-lint)
 * Formatting
-    * 4 spaces, not tabs (to be consistent with PHP)
-    * A space to the left of `{` and a newline after
-    * Rules on new lines, with a space after `:`
-    * `}` on its own
-* SASS comments (`//`) instead of CSS comments (`/* ... */`)
+   * 2 spaces, not tabs
+   * A space to the left of `{` and a newline after
+   * Rules on new lines, with a space after `:`
+   * `}` on its own
+   * Single line per selector
+   * Where possible, order rules in alphabetical order.
+   * Always place prefixed rules above non-prefixed rules.
+   * Comma seperated rules go on a new line
+* Guidelines
+   * Keep to hex codes rather than text, ie #000 not 'black'
+   * Keep to shorter hex codes where possible, ie #000 not #00000
+   * Use '0' not '0px' and not 'none'
+* Avoid going [more than 4 levels deep in nesting](http://thesassway.com/beginner/the-inception-rule)
+* Sass comments (`//`) instead of CSS comments (`/* ... */`)
 * Prefer class selectors (`.`) and avoid id selectors (`#`)
 * Comment where styles are used if it is not obvious
 * CSS hacks should be avoided and documented if they are ever used (use [conditional classes on the html element](http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/) instead)
+* Follow [SMACSS](https://smacss.com/) where possible
 
 
 ## HTML
@@ -82,6 +93,7 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 * `#ids-lowercase-with-dashes`
 * HTML5 doctype: `<!doctype html>`
 * HTML should be mostly valid
+* Follow [SMACSS](https://smacss.com/) where possible
 
 
 ## Performance
