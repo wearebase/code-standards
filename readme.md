@@ -76,9 +76,9 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
    * Always place prefixed rules above non-prefixed rules.
    * Comma seperated rules go on a new line
 * Guidelines
-   * Keep to hex codes rather than text, ie #000 not 'black'
-   * Keep to shorter hex codes where possible, ie #000 not #00000
-   * Use '0' not '0px' and not 'none'
+   * Keep to hex codes rather than text, ie `#000` not `black`
+   * Keep to shorter hex codes where possible, ie `#000` not `#000000`
+   * Use `0` not `0px` and not `none`
 * Avoid going [more than 4 levels deep in nesting](http://thesassway.com/beginner/the-inception-rule)
 * Sass comments (`//`) instead of CSS comments (`/* ... */`)
 * Prefer class selectors (`.`) and avoid id selectors (`#`)
