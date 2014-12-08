@@ -24,6 +24,9 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 ## Source control (eg `git`)
 
 * Large changes to whitespace should be in their own commit
+* Where possible try to name online repositories in the format "[Client name] - [Language / type] - [Project name]"
+   * E.g. Base - Android Library - User API
+   * The reason for including the language is to avoid conflict of projects due to the vast array of languages that may be used on a single project
 
 
 ## Passwords
