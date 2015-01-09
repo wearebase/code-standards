@@ -109,5 +109,7 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 
 ## Web servers
 
-* The web server (eg Nginx or Apache) should serve the project document root from `/some/path`.
-
+* The web server (eg Nginx or Apache) should serve the project document root from `/var/www/project-name`.
+* This path MUST be 1 of:
+  * where the project actually lives (if project root == web root and it's basic upload / git deploy, without releases)
+  * a symlink to the web root outside of `/var/www`, eg `/home/app-user/project-name/current/web`
