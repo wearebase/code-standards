@@ -69,10 +69,10 @@ Should work regardless of its implementation detail.
 **For example:**
 ```objc
 if (user.isHappy) {
-//Do something
+    //Do something
 }
 else {
-//Do something else
+    //Do something else
 }
 ```
 * There should be exactly one blank line between methods to aid in visual clarity and organisation. Whitespace within methods should separate functionality, but often there should probably be new methods.
