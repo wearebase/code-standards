@@ -61,9 +61,7 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 
 ## JavaScript
 
-* JavaScript code must not show errors on [JSHint](http://www.jshint.com/)
-* Formatting
-    * 4 spaces, not tabs (to be consistent with PHP)
+* See [this file](javascript.md).
 
 
 ## SCSS
