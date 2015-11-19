@@ -91,12 +91,12 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 
 ## HTML
 
-* `.class-names-lowercase-with-dashes`
+* `.class-name-with-dash__child-item`
+* If needing a class to access with js, prefix with `.js-`
 * `#ids-lowercase-with-dashes`
 * HTML5 doctype: `<!doctype html>`
-* HTML should be mostly valid
-* Follow [SMACSS](https://smacss.com/) where possible
-
+* HTML should be valid
+* Lazyload images with noscript fallback
 
 ## Performance
 
