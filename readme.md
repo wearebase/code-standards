@@ -67,6 +67,8 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 ## SCSS
 
 * Follow scss-lint's guidelines, use a [scss-lint in Sublime](https://sublime.wbond.net/packages/SublimeLinter-contrib-scss-lint)
+* Write CSS in [BEM](http://www.joelambert.co.uk/article/bem-guidelines/) style unless there's a good reason not to
+* CSS should be object-oriented
 * Formatting
    * 2 spaces, not tabs
    * A space to the left of `{` and a newline after
@@ -85,7 +87,6 @@ Content is licensed under the Creative Commons - CC BY 3.0 license.
 * Prefer class selectors (`.`) and avoid id selectors (`#`)
 * Comment where styles are used if it is not obvious
 * CSS hacks should be avoided and documented if they are ever used (use [conditional classes on the html element](http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/) instead)
-* Follow [SMACSS](https://smacss.com/) where possible
 
 
 ## HTML
